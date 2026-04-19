@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3100a09bd6514b51a65a86851a42effa, type: 3}
+  m_Name: TW002_IronShield
+  m_EditorClassIdentifier: 
+  weaponName: Iron Shield
+  weaponIcon: {fileID: 21300000, guid: 6007e256ee90b4b0b92980878208f788, type: 3}
+  weaponDescription: 
+  baseWeaponDamage: 15
+  baseAttackInterval: 1.5
+  baseAttackRange: 1
+  baseProjectileCount: 1
+  baseProjectileSpeed: 4
+  baseProjectilePrefab: {fileID: -3628559554644729472, guid: faf532207c99456448da8815087383b3, type: 3}
+  baseAttackType: 3
+  baseAttackPatternData: {fileID: 11400000, guid: 1c18fe1ccf24007439448eabaf124149, type: 2}
+  capacity: 10
+  maxLevel: 5
+  weaponLevelData:
+  - damageMultiplier: 1
+    intervalMultiplier: 1
+    additionalProjectile: 0
+  - damageMultiplier: 1.5
+    intervalMultiplier: 0.9
+    additionalProjectile: 1
+  - damageMultiplier: 2
+    intervalMultiplier: 0.85
+    additionalProjectile: 2
+  - damageMultiplier: 2.5
+    intervalMultiplier: 0.8
+    additionalProjectile: 3
+  - damageMultiplier: 3
+    intervalMultiplier: 0.75
+    additionalProjectile: 4

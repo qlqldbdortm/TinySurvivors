@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 758e24bb996e4bb5a6d8d10d9861de66, type: 3}
+  m_Name: TP002_Archer
+  m_EditorClassIdentifier: 
+  baseName: "\uAD81\uC218"
+  baseImage: {fileID: 21300000, guid: 1242d9257f164482a9504def032942ed, type: 3}
+  baseDescription: "\uD65C\uC744 \uB4E4\uACE0 \uC2F8\uC6B0\uB294 \uAD81\uC218\n\uD0C0\uC785
+    : \uC6D0\uAC70\uB9AC \uACF5\uACA9"
+  baseMaxHp: 1000000
+  baseMoveSpeed: 5
+  baseDamage: 10
+  baseRecoveryHp: 0
+  baseLuck: 0
+  baseCritical: 5
+  baseCriticalDamage: 1.5
+  baseGreedRatio: 1
+  baseGrowthRatio: 1
+  baseMagnetRange: 1
+  baseInvincibleTime: 0.3
+  baseWeaponData: {fileID: 11400000, guid: ca4a6bd26d01f5d42beda282c3a791a9, type: 2}
